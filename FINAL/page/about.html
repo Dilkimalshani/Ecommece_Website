@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	
+
+		section{
+			position: relative;
+			min-height: 100vh;
+			width: 100%;
+			
+			overflow: hidden;
+			
+		}
+		section .headding{
+			display: inline-block;
+			position: relative;
+			color: #ff523b;
+			font-size: 4vw;
+			padding: 20px;
+			width: 100%;
+			text-align: center;
+			font-weight: 800;
+		}
+		section .headding b{
+			color: #000;
+			
+		}
+		.wrapper{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-wrop: wrap;
+			text-align: center;
+			
+		}
+		.wrapper .container{
+			position: relative;
+			width: 350px;
+			color:#fff;
+			background: #222;
+			margin: 4px 10px;
+			padding: 30px 20px;
+			border-radius:3px;
+			transition: 0.3s ease;
+		}
+		.wrapper .container .profile{
+			position: absolute;
+			left:50%;
+			transform: translateX(-50%);
+			top:-10%;
+			width: 100%;
+			display: block;
+		}
+		.wrapper .container .profile .imgBox{
+			position: relative;
+			height: 100px;
+			width: 100px;
+			margin: auto;
+			border: 8px solid #070c0d;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.wrapper .container .profile .imgBox img{
+			position: absolute;
+			height:100%;
+			width:100%;
+			top:0;
+			left:0;
+			border-radius: 50%;
+			object-fit: cover;
+			transition: 0.3s ease;
+		}
+		.wrapper .container .profile .imgBox:hover img{
+			filter: saturate(140%);
+			transform: scale(0.95);
+		}
+		.wrapper .container .profile h2{
+			padding: 5px 0;
+			text-transform: capitalize;
+			color: #fff;
+			letter-spacing: 1px;
+			text-align: center;
+			
+		}
+		.wrapper .container p{
+			margin-top: 50px;
+			color: #fff;
+			padding: 0 8px;
+			font-size: 15px;
+			opacity: 0.8;
+		}
+		.wrapper .container .left{
+			font-size: 30px;
+			display: block;
+			text-align: left;
+			color: #ff523b;
+		}
+		.wrapper .container .right{
+			font-size: 30px;
+			display: block;
+			text-align: right;
+			color: #ff523b;
+		}
+		.wrapper .container .social{
+			width: 100%;
+		}
+		.wrapper .container .social a{
+			font-size: 1.2em;
+			color: #000;
+			padding: 8px;
+			background: #fff;
+			border-radius: 4px;
+			box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+			background-image:liner-gradient(#fff 50%,#f44236 50%);
+			
+			
+		}
+		.wrapper .container .social a:nth-child(1){
+		color: #1976d3;
+		}
+		.wrapper .container .social a:nth-child(2){
+		color:#03a9f5;
+		}
+		.wrapper .container .social a:nth-child(3){
+		color: #f44236;
+		}
+		
+		.footer{
+	background: hsla(217,90%,8%,1.00);
+			
+}
+		.footer h4{
+			color: #fff;
+		}
+.footer-col-1, .footer-col-2, .footer-col-3,.footer-col-4{
+	min-width: 250px;
+	margin-bottom: 10px;
+		}
+	.footer-col-1{
+	flex: 1;
+	text-align: center;
+}
+.footer-col-1 img{
+	width:180px;
+	margin-bottom: 20px;
+		}
+		.footer-col-3 .social{
+			width: 100%;
+		}
+		.footer-col-3 .social a{
+			font-size: 1.2em;
+			color: #fff;
+			padding: 8px;
+			background: rgba(255,255,255,0.08);
+			border-radius: 4px;
+			box-shadow: 0 4px 4px rgba(0,0,0,0.5);
+		}
+ .footer-col-3 .social a:nth-child(1){
+		color: #1976d3;
+		}
+		.wrapper .container .social a:nth-child(2){
+		color:#03a9f5;
+		}
+		.wrapper .container .social a:nth-child(3){
+		color: #f44236;
+		}
+				
+		
+		.footer-col-3 .social a:hover{
+			background: #3b7cf5;
+		}
+	
+</style>
+	
+</head>
+
+<body>
+	
+	<div class="container">
+	<div class="navbar">
+		<div class="logo">
+	<img src="../img/background/footer-logo.png" width="125px">
+	
+	
+	</div>
+		<nav>
+		<ul>
+		<li><a class="link" href = "index.html">HOME</a></li>
+		<li><a  class="link" href = "product.php">PRODUCTS</a></li>
+		<li><a class="link" href = "about.html">ABOUT</a></li>
+		<li><a class="link" href = "contact.php">CONTACT</a></li>
+		<li><a class="link" href = "account.php">ACCOUNT</a></li>	
+			
+			</ul>
+		
+		</nav>
+		<img src="../img/background/cart.png" width="30px" height="30px">
+		
+	</div>
+	</div>
+		<section>
+		<div class="headding"><b>Our</b>Testimonials</div>
+			<br><br><br><br>
+			<div class="wrapper">
+				<div class="row">
+				<div class="col-3">
+			<div class="container">
+				<div class="profile">
+				<div class="imgBox">
+					<img src="../img/background/a1.jpg">
+				</div>
+					<h2>Sean Parker</h2>
+				</div>
+				<br><br>
+			<p><span class="fa fa-quote-left left"></span>Success isn't always about greatness.It's about consistency.Consistent hard work gains success.Greatness will come.Success isn't always about greatness.It's about consistency.Consistent hard work gains success.Greatness will come.<span class="fa fa-quote-right right"></span></p>
+				<div class="social">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				</div>
+				</div>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-3">
+				<div class="container">
+				<div class="profile">
+				<div class="imgBox">
+					<img src="../img/background/p2.jpg">
+				</div>
+					<h2>Mile Smith</h2>
+				</div>
+				<br><br>
+			<p><span class="fa fa-quote-left left"></span>Success isn't always about greatness.It's about consistency.Consistent hard work gains success.Greatness will come.Success isn't always about greatness.It's about consistency.Consistent hard work gains success.Greatness will come.<span class="fa fa-quote-right right"></span></p>
+				<div class="social">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				
+				</div>
+				</div>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-3">
+				<div class="container">
+				<div class="profile">
+				<div class="imgBox">
+					<img src="../img/background/p3.jpg">
+				</div>
+					<h2>Mabel Joe</h2>
+				</div>
+				<br><br>
+			<p><span class="fa fa-quote-left left"></span>Success isn't always about greatness.It's about consistency.Consistent hard work gains success.Greatness will come.Success isn't always about greatness.It's about consistency.Consistent hard work gains success.Greatness will come.<span class="fa fa-quote-right right"></span></p>
+				<div class="social">
+				<a href="https://facebook.com" class="fa fa-facebook"></a>
+				<a href="https://twitter.com" class="fa fa-twitter"></a>
+				<a href="https://youtube.com" class="fa fa-youtube"></a>
+				
+				</div>
+				</div>
+				</div>
+				</div>
+			    </div>
+			</section>
+	<!..............footer...........>
+	<div class="footer">
+	<div class="container">
+		<div class="row">
+		<div class="footer-col-1">
+			<img src="../img/background/footer-logo.png">
+			</div>
+		<div class="footer-col-2">
+			<h4>Our Pages</h4>
+				<ul>
+		<a href="index.html">HOME</a><br>
+		<a href="product.html">PRODUCT</a><br>
+		<a href="about.html">ABOUT</a><br>
+		<a href="contact.php">CONTACT</a><br>
+		<a href="account.php">ACCOUNT</a><br>
+					
+				</ul>
+			</div>
+		<div class="footer-col-3">
+			<div class="social">
+			<h4>SOCIAL Links</h4>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-youtube"></a>
+			</div>
+			</div>
+			<div class="footer-col-4">
+			<div class="social">
+			<h4>Download App</h4>
+				<img src="../img/background/app.jpg">
+	
+		</div>
+			
+		</div>	
+		
+		</div>
+		</div>
+	</div>
+	</div>	
+		</body>
+</html>
